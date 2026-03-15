@@ -1,33 +1,41 @@
-# QuerySmith – AI SQL Assistant
-
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Flask](https://img.shields.io/badge/Backend-Flask-black)
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![Tailwind](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC)
 ![AI](https://img.shields.io/badge/AI-Natural%20Language%20to%20SQL-purple)
-# QuerySmith – AI Powered SQL Query Generator
 
-QuerySmith is an AI-powered tool that converts natural language questions into SQL queries and visualizes database insights.
+QuerySmith is an AI-powered application that converts natural language questions into SQL queries and generates insights from databases.
+
+---
 
 ## Features
-- Natural Language → SQL query generation
-- AI-powered query understanding
-- Interactive data visualization
-- Query insights and explanations
-- Clean full-stack architecture
+
+• Natural language → SQL query generation  
+• AI-powered query understanding  
+• Query result visualization  
+• Clean full-stack architecture  
+
+---
 
 ## Tech Stack
-Backend:
-- Flask
-- Python
 
-Frontend:
+**Frontend**
 - React
 - Tailwind CSS
 
-AI Layer:
-- LLM based query interpretation
-## Architecture
+**Backend**
+- Flask
+- Python
+
+**Database**
+- SQL / SQLite / PostgreSQL
+
+**AI Layer**
+- Natural Language to SQL model
+
+---
+
+## System Architecture
 
 User Question  
 ↓  
@@ -39,7 +47,10 @@ AI Query Generator
 ↓  
 SQL Database  
 ↓  
-Visualization & Insights
+Visualization & Insights  
+
+---
+
 
 ## Demo Screenshots
 
@@ -52,17 +63,23 @@ Visualization & Insights
 ![Query working](screenshots/back1.png)
 ![Query working](screenshots/back2.png)
 
-### HOW TO RUN
- 
-Backend
-cd backend
-pip install -r requirements.txt
-python app.py
 
-Frontend
-cd frontend
-npm install
-npm start
+## Running the Project
+
+### Backend
+
+cd backend  
+pip install -r requirements.txt  
+python app.py  
+
+### Frontend
+
+cd frontend  
+npm install  
+npm start  
+
+---
 
 ## Author
+
 Sushma Sai Palla
