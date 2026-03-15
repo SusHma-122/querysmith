@@ -41,6 +41,16 @@ SQL Database
 ↓  
 Visualization & Insights
 
+## Demo Screenshots
+
+###frontend
+![Query UI](screenshots/front1.png)
+![Query UI](screenshots/front2.png)
+
+
+###backend
+![Query working](screenshots/back1.png)
+![Query working](screenshots/back2.png)
 
 ### HOW TO RUN
  
